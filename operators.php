@@ -1,0 +1,56 @@
+<?php
+echo "Arithmetic operators";
+echo "<br>";
+$n = 70;
+$m = 70;
+echo "Sum of $n / $m -> " . ($n + $m) . "<br>";
+echo "Difference of $n - $m-> " . ($n - $m) . "<br>";
+echo "Product of $n * $m-> " . ($n * $m) . "<br>";
+echo "Quotient of $n / $m-> " . ($n / $m) . "<br>";
+echo "Remainder of $n % $m-> " . ($n % $m) . "<br>";
+echo "Result of raising $n to the $m'th power-> " . ($n ** $m) . "<br>";
+echo "<br>";
+
+echo "Assignment operators" . "<br>";
+$x = $n;
+echo "The left operand gets set to the value of the expression on the right " . $x . "<br>";
+$x += 5;
+echo "Addition x = x + 5 =>" .$x . "<br>";
+$x -= 5;
+echo "Subtraction x = x - 5 =>" .$x . "<br>";
+$x *= 5;
+echo "Multiplication x = x * 5 =>" .$x . "<br>";
+$x /= 5;
+echo "Division x = x / 5 =>" .$x . "<br>";
+$x %= 5;
+echo "Modulus x = x % 5 =>" .$x . "<br>";
+echo "<br>";
+
+echo "Comparison Operators" . "<br>";
+$a = 18;
+$b = 18;
+echo "For a == b, the result is ";
+echo var_dump($a == $b);
+echo "<br>";
+echo "For a === b, the result is ";
+echo var_dump($a === $b);
+echo "<br>";
+echo "For a != b, the result is ";
+echo var_dump($a != $b);
+echo "<br>";
+echo "For a !== b, the result is ";
+echo var_dump($a !== $b);
+echo "<br>";
+echo "For a < b, the result is ";
+echo var_dump($a < $b);
+echo "<br>";
+echo "For a > b, the result is ";
+echo var_dump($a > $b);
+echo "<br>";
+echo "For a <= b, the result is ";
+echo var_dump($a <= $b);
+echo "<br>";
+echo "For a >= b, the result is ";
+echo var_dump($a >= $b);
+echo "<br>";
+?>

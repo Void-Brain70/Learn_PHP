@@ -21,4 +21,10 @@ echo "<br>";
 //str_repeat() function
 echo "Repeat->", str_repeat($str, 5);
 echo "<br>";
+//ltrim() and rtrim() function
+echo "<pre>";
+echo rtrim("   this is right trim  ");
+echo "<br>";
+echo ltrim("    this is left trim    ");
+echo "</pre>";
 ?>
