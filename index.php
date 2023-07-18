@@ -13,5 +13,4 @@ echo "<br>";
 var_dump($arr);
 echo "<br>";
 var_dump($n);
-
 ?>
